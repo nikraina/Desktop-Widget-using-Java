@@ -16,11 +16,6 @@ public class LaunchInBrowser {
 			
 		}
 		catch(IOException e){
-			/*if(api.browse(URI.create("www.facebook.com"))){
-				System.out.println("Success");
-			}else{
-				System.out.println("This fails in ubuntu");
-			}*/
 			h_api.launch("www.facebook.com");
 		}
 	}
@@ -31,11 +26,6 @@ public class LaunchInBrowser {
 			
 		}
 		catch(IOException e){
-			/*if(api.browse(URI.create("www.facebook.com"))){
-				System.out.println("Success");
-			}else{
-				System.out.println("This fails in ubuntu");
-			}*/
 			h_api.launch("www.gmail.com");
 		}
 	}
@@ -45,11 +35,6 @@ public class LaunchInBrowser {
 			
 		}
 		catch(IOException e){
-			/*if(api.browse(URI.create("www.facebook.com"))){
-				System.out.println("Success");
-			}else{
-				System.out.println("This fails in ubuntu");
-			}*/
 			h_api.launch("www.linkedin.com");
 		}
 	}
@@ -59,11 +44,6 @@ public class LaunchInBrowser {
 			
 		}
 		catch(IOException e){
-			/*if(api.browse(URI.create("www.facebook.com"))){
-				System.out.println("Success");
-			}else{
-				System.out.println("This fails in ubuntu");
-			}*/
 			h_api.launch("www.youtube.com");
 		}
 	}
